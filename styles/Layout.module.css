@@ -1,0 +1,48 @@
+.container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .logo:hover {
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+.localeSwitch {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5rem;
+  gap: 30px;
+}
+
+.localeSwitch p {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.active {
+  color: var(--red);
+}
